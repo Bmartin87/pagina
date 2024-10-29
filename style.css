@@ -15,6 +15,11 @@ nav{
     padding: 80px;
     
 }
+
+.inicio{
+    list-style: none;
+    border: 2px solid black;
+}
 .encabezado{
     display: flex;
     
@@ -27,27 +32,37 @@ nav{
     letter-spacing: 5px;
     list-style-type: none; ;
     gap: 20px;
+    margin-right: 100px;
     
 }
-
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(101, 18, 235);
+    text-shadow:gray 2px 2px;
+    font-weight: 600;
+}
 header{
-background: url(./imagenes/fondo.jpg) 50% 0 fixed ;
-background-size: cover;
-height: 100vh;
-display: flex;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
+.header1{
+background: url(./imagenes/fondo.jpg) 50% 0 fixed ;
+
+}
 
 .header2{
     background: url(./imagenes/historia-programacion.jpg) 50% 0 fixed ;
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   
+    }
+
+    .header3{
+    background-image: url(./imagenes/img2.jpg);
+  
     }
                         /*SECCION BODY*/
 
@@ -157,4 +172,65 @@ footer{
 
 .logo{
     width: 30px;
+}
+
+
+
+/*Juego*/
+.juego{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.img1{
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.img3{
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-juego{
+    display: flex;
+    justify-content: center;
+   
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+   
+ font-size: large;
+ font-weight: 600;  
+ background: linear-gradient(90deg, rgba(33,183,240,1) 1%, rgba(233,13,180,1) 92%);
+}
+#button{
+    display: flex;
+    justify-content: center;
+   
 }
