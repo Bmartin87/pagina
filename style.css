@@ -18,7 +18,11 @@ nav{
 
 .inicio{
     list-style: none;
-    border: 2px solid black;
+   
+}
+
+.texto{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .encabezado{
     display: flex;
